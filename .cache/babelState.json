@@ -1,0 +1,172 @@
+{
+  "stages": {
+    "develop": {
+      "plugins": [
+        {
+          "name": "@babel/plugin-proposal-object-rest-spread",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-jsx-pragmatic",
+          "options": {
+            "export": "jsx",
+            "module": "@emotion/core",
+            "import": "___EmotionJSX"
+          }
+        },
+        {
+          "name": "@babel/plugin-transform-react-jsx",
+          "options": {
+            "pragma": "___EmotionJSX",
+            "pragmaFrag": "React.Fragment"
+          }
+        },
+        {
+          "name": "babel-plugin-emotion",
+          "options": {
+            "cssPropOptimization": true,
+            "sourceMap": false,
+            "autoLabel": false,
+            "plugins": []
+          }
+        },
+        {
+          "name": "@babel/plugin-proposal-export-default-from",
+          "options": {}
+        }
+      ],
+      "presets": [],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "develop-html": {
+      "plugins": [
+        {
+          "name": "@babel/plugin-proposal-object-rest-spread",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-jsx-pragmatic",
+          "options": {
+            "export": "jsx",
+            "module": "@emotion/core",
+            "import": "___EmotionJSX"
+          }
+        },
+        {
+          "name": "@babel/plugin-transform-react-jsx",
+          "options": {
+            "pragma": "___EmotionJSX",
+            "pragmaFrag": "React.Fragment"
+          }
+        },
+        {
+          "name": "babel-plugin-emotion",
+          "options": {
+            "cssPropOptimization": true,
+            "sourceMap": false,
+            "autoLabel": false,
+            "plugins": []
+          }
+        },
+        {
+          "name": "@babel/plugin-proposal-export-default-from",
+          "options": {}
+        }
+      ],
+      "presets": [],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "build-html": {
+      "plugins": [
+        {
+          "name": "@babel/plugin-proposal-object-rest-spread",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-jsx-pragmatic",
+          "options": {
+            "export": "jsx",
+            "module": "@emotion/core",
+            "import": "___EmotionJSX"
+          }
+        },
+        {
+          "name": "@babel/plugin-transform-react-jsx",
+          "options": {
+            "pragma": "___EmotionJSX",
+            "pragmaFrag": "React.Fragment"
+          }
+        },
+        {
+          "name": "babel-plugin-emotion",
+          "options": {
+            "cssPropOptimization": true,
+            "sourceMap": false,
+            "autoLabel": false,
+            "plugins": []
+          }
+        },
+        {
+          "name": "@babel/plugin-proposal-export-default-from",
+          "options": {}
+        }
+      ],
+      "presets": [],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "build-javascript": {
+      "plugins": [
+        {
+          "name": "@babel/plugin-proposal-object-rest-spread",
+          "options": {}
+        },
+        {
+          "name": "babel-plugin-jsx-pragmatic",
+          "options": {
+            "export": "jsx",
+            "module": "@emotion/core",
+            "import": "___EmotionJSX"
+          }
+        },
+        {
+          "name": "@babel/plugin-transform-react-jsx",
+          "options": {
+            "pragma": "___EmotionJSX",
+            "pragmaFrag": "React.Fragment"
+          }
+        },
+        {
+          "name": "babel-plugin-emotion",
+          "options": {
+            "cssPropOptimization": true,
+            "sourceMap": false,
+            "autoLabel": false,
+            "plugins": []
+          }
+        },
+        {
+          "name": "@babel/plugin-proposal-export-default-from",
+          "options": {}
+        }
+      ],
+      "presets": [],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    }
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ]
+}
